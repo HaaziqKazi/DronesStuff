@@ -64,7 +64,25 @@
 		)
 		(symbol "CubePilot_Carrier_1_1"
 			(pin input line
-				(at -16.51 3.81 0)
+				(at -16.51 7.62 0)
+				(length 2.54)
+				(name "CAN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 5.08 0)
 				(length 2.54)
 				(name "CAN_H"
 					(effects
@@ -84,7 +102,7 @@
 			(pin input line
 				(at -16.51 1.27 0)
 				(length 2.54)
-				(name "CAN_L"
+				(name "VCC_5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,9 +118,9 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -2.54 0)
+				(at -16.51 -1.27 0)
 				(length 2.54)
-				(name "TX"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,9 +136,27 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -5.08 0)
+				(at -16.51 -3.81 0)
 				(length 2.54)
 				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -6.35 0)
+				(length 2.54)
+				(name "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
